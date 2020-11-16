@@ -13,6 +13,7 @@ import static org.junit.Assert.assertNotNull;
 
 public class MainActivityTest {
     @Rule
+
     public ActivityTestRule<MainActivity> mActivityTestRule= new ActivityTestRule<MainActivity>(MainActivity.class);
     private MainActivity mActivity=null;
     private TextView text;
